@@ -1,20 +1,14 @@
 ## 一键修改国内镜像源
 
 ```sh
-git clone https://github.com/matpool/matools.git 
+git clone https://github.com/freeebird/matools.git 
 bash ./matools/mirrors/switch_apt_source.sh 
 bash ./matools/mirrors/switch_conda_source.sh
 bash ./matools/mirrors/switch_pip_source.sh
 ```
 
-## 国内仓库加速🚀
 
-```sh
-git clone https://gitee.com/matpools/matools.git
-git clone https://github.com.cnpmjs.org/matpool/matools.git
-```
-
-## 感谢🤞
+## 镜像源
 
 - [清华大学开源软件镜像站](https://mirrors.tuna.tsinghua.edu.cn/)
 
@@ -38,4 +32,3 @@ git clone https://github.com.cnpmjs.org/matpool/matools.git
 
 - [豆瓣源](https://pypi.doubanio.com/simple/)
 
-脚本由[矩池云](https://matpool.com/)整理发布

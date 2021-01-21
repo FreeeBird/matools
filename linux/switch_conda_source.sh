@@ -3,6 +3,7 @@
 set -e
 
 CONDA_CONF="$HOME/.condarc"
+APT_SOURCE="/etc/apt/source.list"
 
 if [ ! -f ${CONDA_CONF} ]; then
     touch ${CONDA_CONF}
@@ -46,5 +47,8 @@ custom_channels:
   pytorch: ${SOURCES[${INDEX}]}/cloud
   simpleitk: ${SOURCES[${INDEX}]}/cloud" >${CONDA_CONF}
 
-conda clean -i
 echo "写入conda镜像源完成"
+
+conda clean -i
+echo "conda clean done."
+
